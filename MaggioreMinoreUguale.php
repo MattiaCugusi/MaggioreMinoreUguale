@@ -15,13 +15,13 @@
       
 
       if ($x > $y) {
-         max = $x;
+         $max = $x;
          echo "<p>x e' maggiore di y </p>";
       }else if ($x < $y) {
-        max = $y;
+        $max = $y;
         echo "<p>x e' minore di y </p>";
       }else {
-        max = $x;
+        $max = $x;
          echo "<p>x e' uguale a y </p>";
       }
 
